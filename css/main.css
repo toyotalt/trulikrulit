@@ -1,145 +1,259 @@
-.industrijos{
-    width: 1920px;
-    height: 618px;
-    top: 6361px;
-    position: absolute;
+/*industries*/
+.industrijos {
+  width: 1920px;
+  height: 618px;
+  top: 6361px;
+  position: absolute;
 }
-.indus{
-    display: flex;
+.indus {
+  display: flex;
 }
-.indpagpav{
-    width: 313px;
-    height: 58px;
-    left: 150px;
-    font-weight: 400;
-    size: 60px;
-    line-height: 57.9px;
-    color: #2F353F;
-    position: relative;
+.indpagpav {
+  width: 313px;
+  height: 58px;
+  left: 150px;
+  font-weight: 400;
+  size: 60px;
+  line-height: 57.9px;
+  color: #2f353f;
+  position: relative;
 }
-.indpav1{
-    width: 185px;
-    height: 60px;
-    top: 140px;
-    font-weight: 400;
-    size: 40px;
-    line-height: 60px;
-    color: #2F353F;
+.indpav1 {
+  width: 185px;
+  height: 60px;
+  top: 140px;
+  font-weight: 400;
+  size: 40px;
+  line-height: 60px;
+  color: #2f353f;
 }
-.indpav2{
-    width: 255px;
-    height: 60px;
-    top: 140px;
-    font-weight: 400;
-    size: 40px;
-    line-height: 60px;
-    color: #2F353F;
+.indpav2 {
+  width: 255px;
+  height: 60px;
+  top: 140px;
+  font-weight: 400;
+  size: 40px;
+  line-height: 60px;
+  color: #2f353f;
 }
-.indpav3{
-    width: 262px;
-    height: 60px;
-    top: 140px;
-    font-weight: 400;
-    size: 40px;
-    line-height: 60px;
-    color: #2F353F;
+.indpav3 {
+  width: 262px;
+  height: 60px;
+  top: 140px;
+  font-weight: 400;
+  size: 40px;
+  line-height: 60px;
+  color: #2f353f;
 }
 .ind1 {
-    width: 506px;
-    height: 460px;
-    top: 158px;
-    left: 150px;
-    text-align: left;
-    position: absolute;
+  width: 506px;
+  height: 460px;
+  top: 158px;
+  left: 150px;
+  text-align: left;
+  position: absolute;
 }
 .ind2 {
-    width: 506px;
-    height: 460px;
-    top: 158px;
-    left: 707px;
-    text-align: left;
-    position: absolute;
+  width: 506px;
+  height: 460px;
+  top: 158px;
+  left: 707px;
+  text-align: left;
+  position: absolute;
 }
 .ind3 {
-    width: 506px;
-    height: 460px;
-    top: 158px;
-    left: 1264px;
-    text-align: left;
-    position: absolute;
+  width: 506px;
+  height: 460px;
+  top: 158px;
+  left: 1264px;
+  text-align: left;
+  position: absolute;
 }
 
-.logotipas{
-    width: 100px;
-    height: 100px;
-    
+.logotipas {
+  width: 100px;
+  height: 100px;
 }
-.indtekstas{
-    width: 506px;
-    height: 180px;
-    top: 280px;
-    font: 'gilroy';
-    font-weight: 400;
-    size: 24px;
-    line-height: 36px;
-    color: #2F353F;
+.indtekstas {
+  width: 506px;
+  height: 180px;
+  top: 280px;
+  font: "gilroy";
+  font-weight: 400;
+  size: 24px;
+  line-height: 36px;
+  color: #2f353f;
 }
-.indlinija{
-    border: 1px solid #2F353F;
-    width: 506px;
-    top: 240px;
-    
+.indlinija {
+  border: 1px solid #2f353f;
+  width: 506px;
+  top: 240px;
 }
-.kontaktai{
-    width: 1860px;
-    height: 1004px;
-    top: 7229px;
-    left: 30px;
-    position: absolute;
-    display: flex;
+/*get in touch*/
+.kontaktai {
+  width: 1860px;
+  height: 1004px;
+  top: 7229px;
+  left: 30px;
+  position: absolute;
+  display: flex;
 }
-.kont{
-    width: 1860px;
-    height: 1004px;
-    border-radius: 70px;
-    background-image: linear-gradient(to top right, #2E2BD0, #7876F2);
+.kontpav {
+  width: 645px;
+  height: 260px;
+  top: 100px;
+  left: 120px;
+  font-weight: 400;
+  size: 100px;
+  line-height: 130px;
+  position: absolute;
+  color: white;
 }
-.kontpav{
-    width: 645px;
-    height: 260px;
-    top: 100px;
-    left: 120px;
-    font-weight: 400;
-    size: 100px;
-    line-height: 130px;
-    position: absolute;
-    color: white;
+.konttext {
+  width: 700px;
+  height: 180px;
+  top: 133px;
+  left: 1040px;
+  font: "gilroy";
+  font-weight: 400;
+  size: 24px;
+  line-height: 36px;
+  position: absolute;
+  color: white;
 }
-.konttext{
-    width: 700px;
-    height: 180px;
-    top: 133px;
-    left: 1040px;
-    font: 'gilroy';
-    font-weight: 400;
-    size: 24px;
-    line-height: 36px;
-    position: absolute;
-    color: white;
+.brief {
+  width: 350px;
+  height: 58px;
+  top: 362px;
+  left: 1040px;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding-top: 17px;
+  padding-right: 40px;
+  padding-bottom: 17px;
+  padding-left: 40px;
+  gap: 10px;
+  color: white;
+  position: absolute;
+  background: transparent;
 }
-.brief{
-    width: 350px;
-    height: 58px;
-    top: 362px;
-    left: 1040px;
-    border-radius: 10px;
-    border: 1px solid white;
-    padding-top: 17px;
-    padding-right: 40px;
-    padding-bottom: 17px;
-    padding-left: 40px;
-    gap: 10px;
-    color: white;
-    position: absolute;
-    background: transparent;
+.kont {
+  width: 1860px;
+  height: 1004px;
+  border-radius: 70px;
+  background-image: linear-gradient(to top right, #2e2bd0, #7876f2);
+}
+input[type="text"] {
+  width: 700px;
+  height: 61.5px;
+  top: 510px;
+  left: 120px;
+  position: absolute;
+  background: transparent;
+  border: 0px;
+  color: grey;
+}
+input[type="email"] {
+  width: 700px;
+  height: 61.5px;
+  top: 622px;
+  left: 120px;
+  position: absolute;
+  border: 0;
+  background: transparent;
+  color: grey;
+}
+input[type="telefonas"] {
+  width: 700px;
+  height: 61.5px;
+  top: 734px;
+  left: 120px;
+  position: absolute;
+  border: 0;
+  background: transparent;
+  color: grey;
+}
+input[type="filas"] {
+  width: 700px;
+  height: 61.5px;
+  top: 622px;
+  left: 1040px;
+  background: transparent;
+  border: 0;
+  position: absolute;
+  color: grey;
+}
+input[type="text1"] {
+  width: 700px;
+  height: 61.5px;
+  top: 510px;
+  left: 1040px;
+  background: transparent;
+  position: absolute;
+  border: 0;
+  color: grey;
+}
+button[type="pateikti"] {
+  width: 205px;
+  height: 58px;
+  top: 846px;
+  left: 120px;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-right: 40px;
+  padding-left: 120px;
+  padding-bottom: 17px;
+  gap: 10px;
+  position: absolute;
+}
+/*used technology*/
+.tech {
+  width: 1920px;
+  height: 640px;
+  top: 5471px;
+  position: absolute;
+}
+.techpav {
+  width: 556px;
+  height: 58px;
+  left: 150px;
+  font-weight: 400;
+  size: 60px;
+  line-height: 57.9px;
+  position: absolute;
+}
+.techtext {
+  width: 634px;
+  height: 144px;
+  top: 158px;
+  left: 900px;
+  font-weight: 400;
+  size: 24px;
+  line-height: 36px;
+  color: #2f353fb2;
+  position: absolute;
+}
+.tech-sar {
+  width: 1620px;
+  height: 238px;
+  top: 402px;
+  left: 150px;
+  border: 1px;
+  position: absolute;
+  border: 0px 0px 0px 0px;
+}
+.techlinija {
+  width: 1620px;
+  top: 422px;
+  left: 150px;
+  border: 1px solid black;
+  rotate: 0;
+  position: absolute;
+}
+.box1 {
+  width: 220px;
+  height: 238px;
+  top: 402px;
+  left: 150px;
+  position: absolute;
 }
