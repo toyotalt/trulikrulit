@@ -1,3 +1,11 @@
+body{
+  width: 1920px;
+  height: 9097px;
+  background: var(--main-white, #FFF);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 /*industries*/
 .industrijos {
   width: 1920px;
@@ -13,7 +21,7 @@
   height: 58px;
   left: 150px;
   font-weight: 400;
-  size: 60px;
+  font-size: 60px;
   line-height: 57.9px;
   color: #2f353f;
   position: relative;
@@ -23,7 +31,7 @@
   height: 60px;
   top: 140px;
   font-weight: 400;
-  size: 40px;
+  font-size: 40px;
   line-height: 60px;
   color: #2f353f;
 }
@@ -32,7 +40,7 @@
   height: 60px;
   top: 140px;
   font-weight: 400;
-  size: 40px;
+  font-size: 40px;
   line-height: 60px;
   color: #2f353f;
 }
@@ -41,7 +49,7 @@
   height: 60px;
   top: 140px;
   font-weight: 400;
-  size: 40px;
+  font-size: 40px;
   line-height: 60px;
   color: #2f353f;
 }
@@ -69,7 +77,6 @@
   text-align: left;
   position: absolute;
 }
-
 .logotipas {
   width: 100px;
   height: 100px;
@@ -80,7 +87,7 @@
   top: 280px;
   font: "gilroy";
   font-weight: 400;
-  size: 24px;
+  font-size: 24px;
   line-height: 36px;
   color: #2f353f;
 }
@@ -103,45 +110,82 @@
   height: 260px;
   top: 100px;
   left: 120px;
-  font-weight: 400;
-  size: 100px;
   line-height: 130px;
   position: absolute;
-  color: white;
+  color: var(--main-white, #FFF);
+  font-family: "Neue Machina";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
 }
 .konttext {
   width: 700px;
   height: 180px;
   top: 133px;
   left: 1040px;
-  font: "gilroy";
-  font-weight: 400;
-  size: 24px;
   line-height: 36px;
   position: absolute;
-  color: white;
+  color: rgba(255, 255, 255, 0.70);
+  font-family: "Gilroy";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.textemail{
+  color: var(--main-white, #FFF);
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  position: absolute;
 }
 .brief {
-  width: 350px;
+  width: 370px;
   height: 58px;
   top: 362px;
   left: 1040px;
+  padding: 17px 40px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 28px;
   border-radius: 10px;
-  border: 1px solid white;
-  padding-top: 17px;
-  padding-right: 40px;
-  padding-bottom: 17px;
-  padding-left: 40px;
-  gap: 10px;
-  color: white;
+  border: 1px solid var(--main-white, #FFF);
   position: absolute;
-  background: transparent;
+  background-color: transparent;
+}
+.ftft{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.brieftext{
+  color: var(--main-white, #FFF);
+  font-family: "Neue Machina";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.briefimg{
+  width: 24px;
+  height: 24px;
 }
 .kont {
   width: 1860px;
   height: 1004px;
   border-radius: 70px;
-  background-image: linear-gradient(to top right, #2e2bd0, #7876f2);
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
 }
 input[type="text"] {
   width: 700px;
@@ -151,7 +195,12 @@ input[type="text"] {
   position: absolute;
   background: transparent;
   border: 0px;
-  color: grey;
+  color: rgba(255, 255, 255, 0.40);
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
 }
 input[type="email"] {
   width: 700px;
@@ -161,7 +210,12 @@ input[type="email"] {
   position: absolute;
   border: 0;
   background: transparent;
-  color: grey;
+  color: rgba(255, 255, 255, 0.40);
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px
 }
 input[type="telefonas"] {
   width: 700px;
@@ -171,7 +225,12 @@ input[type="telefonas"] {
   position: absolute;
   border: 0;
   background: transparent;
-  color: grey;
+  color: rgba(255, 255, 255, 0.40);
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
 }
 input[type="filas"] {
   width: 700px;
@@ -181,7 +240,12 @@ input[type="filas"] {
   background: transparent;
   border: 0;
   position: absolute;
-  color: grey;
+  color: rgba(255, 255, 255, 0.40);
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
 }
 input[type="text1"] {
   width: 700px;
@@ -193,7 +257,7 @@ input[type="text1"] {
   border: 0;
   color: grey;
 }
-button[type="pateikti"] {
+.pateikti {
   width: 205px;
   height: 58px;
   top: 846px;
@@ -205,55 +269,57 @@ button[type="pateikti"] {
   padding-bottom: 17px;
   gap: 10px;
   position: absolute;
+  display: flex;
+  align-items: right;
+  justify-content: right;
 }
-/*used technology*/
-.tech {
-  width: 1920px;
-  height: 640px;
-  top: 5471px;
-  position: absolute;
+.gtgt{
+  display: flex;
+  gap: 20px;
+  width: 125px;
+  height: 24px;
+  align-items: center;
 }
-.techpav {
-  width: 556px;
-  height: 58px;
-  left: 150px;
+.subimg{
+  width: 24px;
+  height: 24px;
+}
+.subtext{
+  color: var(--main-blue, #2E2BD0);
+  font-family: "Neue Machina";
+  font-size: 20px;
+  font-style: normal;
   font-weight: 400;
-  size: 60px;
-  line-height: 57.9px;
-  position: absolute;
+  line-height: normal;
+  text-transform: uppercase;
 }
-.techtext {
-  width: 634px;
-  height: 144px;
-  top: 158px;
-  left: 900px;
+input[type="filas"]{
+  width: 700px;
+  height: 61.5px;
+  top: 622px;
+  left: 1040px;
+  position: absolute;
+  background-color: transparent;
+}
+input[type="apibudinimas"]{
+  width: 700px;
+  height: 61.5px;
+  top: 510px;
+  left: 1040px;
+  position: absolute;
+  background-color: transparent;
+  border: 0;
   font-weight: 400;
-  size: 24px;
-  line-height: 36px;
-  color: #2f353fb2;
-  position: absolute;
+  font-size: 32px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.40);
+  font-family: "Neue Machina";
+  font-style: normal;
 }
-.tech-sar {
-  width: 1620px;
-  height: 238px;
-  top: 402px;
-  left: 150px;
+.linija4{
+  width: 700px;
+  top: 61.5px;
   border: 1px;
   position: absolute;
-  border: 0px 0px 0px 0px;
-}
-.techlinija {
-  width: 1620px;
-  top: 422px;
-  left: 150px;
-  border: 1px solid black;
-  rotate: 0;
-  position: absolute;
-}
-.box1 {
-  width: 220px;
-  height: 238px;
-  top: 402px;
-  left: 150px;
-  position: absolute;
+  color: #FFFFFF;
 }

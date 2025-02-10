@@ -1,0 +1,321 @@
+
+.galas{
+  width: 1860px;
+  height: 564px;
+  top: 8483px;
+  left: 30px;
+  position: absolute;
+}
+.gallinija1{
+    width: 1860px;
+    border: 1px solid #2F353F80;
+    justify-items: center;
+}
+.gallinija2 {
+    width: 1860px;
+    top: 495px;
+    border: 1px solid #2F353F80;
+    justify-items: center;
+    position: absolute; 
+}
+.galkont{
+    width: 298px;
+    height: 395px;
+    top: 50px;
+    left: 120px;
+    position: absolute;
+}
+.soctinklai{
+    width: 270px;
+    height: 60px;
+    top: 226px;
+    position: absolute;
+    display: flex;
+}
+.socft1{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1.13px solid #2E2BD0;
+    position: absolute;
+}
+.socft2{
+    width: 60px;
+    height: 60px;
+    left: 70px;
+    border-radius: 15px;
+    border: 1.13px solid #2E2BD0;
+    position: absolute;
+}
+.socft3{
+    width: 60px;
+    height: 60px;
+    left: 140px;
+    border-radius: 15px;
+    border: 1.13px solid #2E2BD0;
+    position: absolute;
+}
+.socft4{
+    width: 60px;
+    height: 60px;
+    left: 210px;
+    border-radius: 15px;
+    border: 1.13px solid #2E2BD0;
+    position: absolute;
+}
+.ftt{
+    width: 45px;
+    height: 45px;
+    top: 7.5px;
+    left: 7.5px;
+    position: absolute;
+}
+.galmygt{
+    width: 254px;
+    height: 59px;
+    top: 336px;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #2E2BD0;
+    border: 0;
+}
+.CONTACTUS{
+    width: 129px;
+    height: 19px;
+    top: 4.5px;
+    left: 35px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19.3px;
+    color: white;
+}
+.mygtrodykle{
+    width: 24px;
+    height: 24px;
+    top: 13.5px;
+    left: 170px;
+    rotate: -180;
+    position: absolute;
+    color: white;
+}
+.galemail{
+  width: 298px;
+  height: 36px;
+  top: 140px;
+  font-weight: 500px;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: underline;
+  text-decoration: solid;
+  position: absolute;
+  color: #2E2BD0;
+}
+.offices{
+  width: 390px;
+  height: 283px;
+  top: 61px;
+  left: 919px;
+  position: absolute;
+}
+.minsk{
+  width: 390px;
+  height: 92px;
+  top: 69px;
+  position: absolute;
+}
+.minskpav{
+  width: 75px;
+  height: 24px;
+  top: 69px;
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2BD0;
+  font-style: normal;
+}
+.minsknr{
+  width: 176px;
+  height: 24px;
+  top: 103px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2f353f;
+  font-style: normal;
+}
+.minskadresas{
+  width: 390px;
+  height: 24px;
+  top: 137px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2f353f;
+  font-style: normal;
+}
+.vln{
+  width: 390px;
+  height: 92px;
+  top: 191px;
+  position: absolute;
+  flex-shrink: 0;
+}
+.vlnpav{
+  width: 80px;
+  height: 24px;
+  top: 191px;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2BD0;
+  font-style: normal;
+}
+.vlnnr{
+  width: 193px;
+  height: 24px;
+  top: 225px;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2f353f;
+  font-style: normal;
+}
+.vlnadresas{
+  width: 390px;
+  height: 24px;
+  top: 259px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+  color: #2f353f;
+  font-style: normal;
+}
+.services{
+  width: 231px;
+  height: 363px;
+  top: 61px;
+  left: 1509px;
+  position: absolute;
+}
+.ts{
+  width: 166px;
+  height: 24px;
+  top: 69px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2BD0;
+  position: absolute;
+}
+.fd{
+  width: 211px;
+  height: 24px;
+  top: 123px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2BD0;
+  position: absolute;
+}
+.bd{
+  width: 210px;
+  height: 24px;
+  top: 177px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2BD0;
+  position: absolute;
+}
+.mad{
+  width: 231px;
+  height: 24px;
+  top: 231px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2BD0;
+  position: absolute;
+}
+.ui{
+  width: 121px;
+  height: 24px;
+  top: 285px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2BD0;
+  position: absolute;
+}
+.sd{
+  width: 212px;
+  height: 24px;
+  top: 339px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2BD0;
+  position: absolute;
+}
+.info{
+  width: 1860px;
+  height: 19px;
+  top: 545px;
+  position: absolute;
+  display: flex;
+}
+.info1{
+  width: 254px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #2f353f;
+  position: absolute;
+}
+.info2{
+  width: 97px;
+  height: 19px;
+  left: 882px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #2f353f;
+  position: absolute;
+}
+.info3{
+  width: 182px;
+  height: 19px;
+  left: 1678px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  align-items: right;
+  color: #2f353f;
+  position: absolute;
+}
+.gallogo{
+  width: 39px;
+  height: 40px;
+  position: absolute;
+}
+.officespav{
+  color: var(--main-light, #2F353F);
+  font-family: "Neue Machina";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+}
+.servpav{
+  color: var(--main-light, #2F353F);
+  font-family: "Neue Machina";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+}
