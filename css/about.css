@@ -1,652 +1,1136 @@
-.navbar {
-  width: 1920;
-  height: 979;
-  top: 269px;
-  display: flex;
-}
-nav {
-  width: 1920px;
-  height: 119px;
-  flex-shrink: 0;
-  display: flex;
-}
-.navlogo {
-  width: 39px;
-  height: 40px;
-  top: 39px;
-  left: 30px;
-  position: absolute;
-}
-.mainmenu {
-  width: 571px;
-  height: 39px;
-  top: 40px;
-  left: 748px;
-  flex-shrink: 0;
-  display: flex;
-  position: absolute;
-}
-.navmenu {
-  width: 551px;
-  height: 19px;
-  top: 10px;
-  left: 20px;
-  gap: 120px;
-  display: inline-flex;
-  align-items: flex-start;
-  position: absolute;
-  justify-content: center;
-}
-.menu1 {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 58px;
-  height: 19px;
-}
-.abt {
-  width: 58px;
-  height: 19px;
-  color: var(--main-blue, #2e2bd0);
-  font-family: "Neue Machina";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: lowercase;
-}
-.menu2 {
-  width: 122px;
-  height: 19px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.ost {
-  color: var(--main-light, #2f353f);
-  font-family: "Neue Machina";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: lowercase;
-  width: 122px;
-  height: 19px;
-}
-.menu3 {
-  width: 131px;
-  height: 19px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.jot {
-  color: var(--main-light, #2f353f);
-  font-family: "Neue Machina";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: lowercase;
-  width: 131px;
-  height: 19px;
-}
-.blokas {
-  width: 98px;
-  height: 39px;
-  border-radius: 10px;
-  border-width: 1px;
-  border-radius: 10px;
-  border: 1px solid var(--main-blue, #2e2bd0);
-  flex-shrink: 0;
-  position: absolute;
-}
-.navlin1 {
-  height: 119px;
-  left: 1399px;
-  border: 1px solid rgba(47, 53, 63, 0.5);
-  position: absolute;
-  top: 0;
-}
-.kalba {
-  width: 57px;
-  height: 21px;
-  top: 48px;
-  left: 1479px;
-  gap: 10px;
-  flex-shrink: 0;
-  position: absolute;
-  display: flex;
-}
-.kalbtext {
-  color: var(--main-light, #2f353f);
-  font-family: "Neue Machina";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-  width: 27px;
-  height: 19px;
-  top: 2px;
-}
-.kalbosft {
-  width: 20px;
-  height: 20px;
-  left: 37px;
-}
-.navmygt {
-  width: 254px;
-  height: 59px;
-  top: 30px;
-  left: 1636px;
-  flex-shrink: 0;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-}
-.nvmygtblock {
-  width: 254px;
-  height: 59px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: var(--main-blue, #2e2bd0);
-  display: flex;
-}
-.navmygtimg {
-  width: 20px;
-  height: 20px;
-  left: 37px;
-  position: absolute;
-}
-.cu {
-  width: 129px;
-  height: 19px;
-  top: 20px;
-  left: 40px;
-  color: var(--main-white, #fff);
-  font-family: "Neue Machina";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-  position: absolute;
-}
-.navlin2 {
-  width: 1860px;
-  height: 0px;
-  flex-shrink: 0;
-  border: 1px solid rgba(47, 53, 63, 0.5);
-  top: 121px;
-  left: 30px;
-  position: absolute;
-}
-.kasmes {
-  width: 100%;
-  max-width: 1920px;
-  height: auto;
-  position: relative;
-  padding: 50px 150px;
-}
-.kasmestext {
-  color: #2f353f;
-  font-family: "Neue Machina", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-.visiblok {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: flex-start;
-}
-.stat-grid {
-  width: 1620px;
-  height: 491px;
-  left: 150px;
-  display: flex;
-  position: absolute;
-}
-.boxx1 {
-  width: 358;
-  height: 236;
-  left: 905px;
-  border-width: 1px;
-  border-radius: 40px;
-}
-.boxx2 {
-  width: 358;
-  height: 236;
-  border-width: 1px;
-  border-radius: 40px;
-}
-.boxx3 {
-  width: 358;
-  height: 236;
-  border-width: 1px;
-  border-radius: 40px;
-}
-.boxx4 {
-  width: 358;
-  height: 236;
-  border-width: 1px;
-  border-radius: 40px;
-}
-.blokelis1 {
-  width: 358px;
-  height: 236px;
-  border: 1px solid #909398;
-  border-radius: 40px;
-  left: 905px;
-  position: absolute;
-}
-.blokelis2 {
-  width: 358px;
-  height: 236px;
-  border: 1px solid #909398;
-  border-radius: 40px;
-  left: 1262px;
-  position: absolute;
-}
-.blokelis3 {
-  width: 358px;
-  height: 236px;
-  border: 1px solid #909398;
-  border-radius: 40px;
-  background-image: url(../img/Block.png);
-  left: 885px;
-  top: 255px;
-  position: absolute;
-}
-.blokelis4 {
-  width: 359px;
-  height: 236px;
-  border: 1px solid #909398;
-  border-radius: 40px;
-  top: 235px;
-  left: 1262px;
-  position: absolute;
-}
-.blokelis3 {
-  background-color: #2e2bd0;
-}
-.numeriuks1 {
-  color: #2e2bd0;
-  font-family: "Neue Machina", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  margin: 0;
-  top: 50px;
-  left: 955px;
-  position: absolute;
-}
-.numeriuks2 {
-  color: #2e2bd0;
-  font-family: "Neue Machina", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  margin: 0;
-  top: 50px;
-  left: 1312px;
-  position: absolute;
-}
-.numeriuks3 {
-  font-family: "Neue Machina", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  margin: 0;
-  top: 305px;
-  left: 935px;
-  position: absolute;
-}
-.numeriuks4 {
-  color: #2e2bd0;
-  font-family: "Neue Machina", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  margin: 0;
-  top: 285px;
-  left: 1312px;
-  position: absolute;
-}
-.tekstuks1 {
-  color: rgba(47, 53, 63, 0.7);
-  font-family: "Gilroy", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  margin: 10px 0;
-  top: 150px;
-  left: 955px;
-  position: absolute;
-}
-.tekstuks2 {
-  color: rgba(47, 53, 63, 0.7);
-  font-family: "Gilroy", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  margin: 10px 0;
-  top: 150px;
-  left: 1312px;
-  position: absolute;
-}
-.tekstuks3 {
-  font-family: "Gilroy", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  margin: 10px 0;
-  top: 405px;
-  left: 935px;
-  position: absolute;
-}
-.tekstuks4 {
-  color: rgba(47, 53, 63, 0.7);
-  font-family: "Gilroy", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  margin: 10px 0;
-  top: 349px;
-  left: 1312px;
-  position: absolute;
-}
-.blokelis3 .numeriuks3,
-.blokelis3 .tekstuks3 {
-  color: white;
-}
-.tekstas1 {
-  width: 750px;
-  color: rgba(47, 53, 63, 0.7);
-  font-family: "Gilroy", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-top: 40px;
-}
-.allpeople {
-  gap: 15px;
-  margin-top: 50px;
-  left: 0px;
-}
-.rutuliukai {
-  position: absolute;
-  display: flex;
-  left: 0px;
-}
-.c1 {
-  top: 799px;
-  left: 150px;
-  position: absolute;
-}
-.c2 {
-  top: 799px;
-  left: 281px;
-  position: absolute;
-}
-.c3 {
-  top: 799px;
-  left: 412px;
-  position: absolute;
-}
-.c5 {
-  top: 799px;
-  position: absolute;
-  left: 543px;
-}
-.c6 {
-  left: 674px;
-  top: 799px;
-  position: absolute;
-}
-.c7 {
-  top: 799px;
-  position: absolute;
-  left: 805px;
-}
-.c8 {
-  top: 799px;
-  position: absolute;
-  left: 936px;
-}
-.c9 {
-  left: 1067px;
-  top: 799px;
-  position: absolute;
-}
-.c10 {
-  left: 1198px;
-  top: 799px;
-  position: absolute;
-}
-.c11 {
-  top: 799px;
-  left: 1328px;
-  position: absolute;
-}
-.c12 {
-  top: 799px;
-  left: 1460px;
-  position: absolute;
-}
-.c4 {
-  top: 799px;
-  left: 1590px;
-  position: absolute;
-}
-.cplius {
-  width: 108px;
-  height: 108px;
-  top: 835px;
-  left: 1626px;
-  position: absolute;
-}
-.ourteam {
-  width: 1920px;
-  height: 1929px;
-  top: 1548px;
-  flex-shrink: 0;
-  position: absolute;
-}
-.ot {
-  width: 282px;
-  height: 90px;
-  left: 150px;
-  color: var(--main-light, #2f353f);
-  font-family: "Neue Machina";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  position: absolute;
-}
-.ottext {
-  width: 715px;
-  height: 108px;
-  top: 140px;
-  left: 900px;
-  color: rgba(47, 53, 63, 0.7);
-  font-family: Gilroy;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 36px */
-  position: absolute;
-}
-.otimg {
-  border-radius: 70px;
-  border: 2px solid var(--main-blue, #2e2bd0);
-  background: lightgray 0px -376.069px / 100% 152.793% no-repeat;
-  width: 1860px;
-  height: 913px;
-  flex-shrink: 0;
-  top: 348px;
-  left: 30px;
-  position: absolute;
-  background-image: url(../img/zmogeliukai.png);
-}
-.otblokai {
-  width: 1620;
-  height: 568;
-  top: 1361px;
-  left: 150px;
-  border-width: 1px;
-  flex-shrink: 0;
-  justify-content: center;
-  align-items: center;
-}
-.honesty {
-  width: 411;
-  height: 368;
-  top: 1461px;
-  left: 150px;
-  flex-shrink: 0;
-  position: absolute;
-}
-.hnr {
-  color: var(--main-blue, #2e2bd0);
-  font-family: "Neue Machina";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  width: 164px;
-  height: 58px;
-  top: 1461px;
-  left: 150px;
-  letter-spacing: 0%;
-}
-.hpav {
-  width: 241px;
-  height: 90px;
-  top: 1619px;
-  left: 150px;
-  font-size: 60px;
-  line-height: 90px;
-  letter-spacing: 0%;
-  color: var(--main-light, #2f353f);
-  font-family: "Neue Machina";
-  font-style: normal;
-  font-weight: 400;
-}
-.htext {
-  color: rgba(47, 53, 63, 0.7);
-  font-family: Gilroy;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 45px;
-  letter-spacing: 0%;
-  width: 411px;
-  height: 90px;
-  top: 1739px;
-  left: 150px;
-}
-.otlinija1 {
-  height: 568px;
-  top: 1361px;
-  left: 644px;
-  position: absolute;
-  border: 1px solid #2e2bd0;
-}
-.otlinija2 {
-  height: 568px;
-  top: 1361px;
-  left: 1218px;
-  position: absolute;
-  border: 1px solid #2e2bd0;
-}
-.punctuality {
-  width: 408px;
-  height: 368px;
-  top: 1461px;
-  left: 727px;
-  flex-shrink: 0;
-  position: absolute;
-}
-.pnr {
-  width: 175px;
-  height: 58px;
-  top: 1461px;
-  left: 727px;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 57.9px;
-  letter-spacing: 0%;
-  color: var(--main-blue, #2e2bd0);
-  font-family: "Neue Machina";
-  font-style: normal;
-}
-.ppav {
-  color: var(--main-light, #2f353f);
-  font-family: "Neue Machina";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 90px;
-  letter-spacing: 0%;
-  width: 348px;
-  height: 90px;
-  top: 1619px;
-  left: 727px;
-}
-.ptext {
-  width: 408px;
-  height: 90px;
-  top: 1739px;
-  left: 727px;
-  line-height: 45px;
-  letter-spacing: 0%;
-  color: rgba(47, 53, 63, 0.7);
-  font-family: Gilroy;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-}
-.precision {
-  width: 468px;
-  height: 368px;
-  top: 1461px;
-  left: 1302px;
-  position: absolute;
-}
-.prnr {
-  color: var(--main-blue, #2e2bd0);
-  font-family: "Neue Machina";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  width: 176px;
-  height: 58px;
-  top: 1461px;
-  left: 1302px;
-  letter-spacing: 0%;
-}
-.prpav {
-  width: 283px;
-  height: 90px;
-  top: 1619px;
-  left: 1302px;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 90px;
-  letter-spacing: 0%;
-  color: var(--main-light, #2f353f);
-  font-family: "Neue Machina";
-  font-style: normal;
-}
-.prtext {
-  color: rgba(47, 53, 63, 0.7);
-  font-family: Gilroy;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 45px */
-  letter-spacing: 0%;
-  width: 468px;
-  height: 90px;
-  top: 1739px;
-  left: 1302px;
+@media screen and (min-width: 1081px){
+  .navbar {
+    width: 1920;
+    height: 979;
+    top: 269px;
+    display: flex;
+  }
+  nav {
+    width: 1920px;
+    height: 119px;
+    flex-shrink: 0;
+    display: flex;
+  }
+  .navlogo {
+    width: 39px;
+    height: 40px;
+    top: 39px;
+    left: 30px;
+    position: absolute;
+  }
+  .mainmenu {
+    width: 571px;
+    height: 39px;
+    top: 40px;
+    left: 748px;
+    flex-shrink: 0;
+    display: flex;
+    position: absolute;
+  }
+  .navmenu {
+    width: 551px;
+    height: 19px;
+    top: 10px;
+    left: 20px;
+    gap: 120px;
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+  }
+  .menu1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 58px;
+    height: 19px;
+  }
+  .abt {
+    width: 58px;
+    height: 19px;
+    color: var(--main-blue, #2e2bd0);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+  }
+  .menu2 {
+    width: 122px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .ost {
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    width: 122px;
+    height: 19px;
+  }
+  .menu3 {
+    width: 131px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .jot {
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    width: 131px;
+    height: 19px;
+  }
+  .blokas {
+    width: 98px;
+    height: 39px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-radius: 10px;
+    border: 1px solid var(--main-blue, #2e2bd0);
+    flex-shrink: 0;
+    position: absolute;
+  }
+  .navlin1 {
+    height: 119px;
+    left: 1399px;
+    border: 1px solid rgba(47, 53, 63, 0.5);
+    position: absolute;
+    top: 0;
+  }
+  .kalba {
+    width: 57px;
+    height: 21px;
+    top: 48px;
+    left: 1479px;
+    gap: 10px;
+    flex-shrink: 0;
+    position: absolute;
+    display: flex;
+  }
+  .kalbtext {
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 27px;
+    height: 19px;
+    bottom: -16px;
+    position: absolute;
+  }
+  .kalbosftdiv{
+    position: absolute;
+  }
+  .kalbosft {
+    width: 20px;
+    height: 20px;
+    left: 37px;
+    position: absolute;
+  }
+  .navmygt {
+    width: 254px;
+    height: 59px;
+    top: 30px;
+    left: 1636px;
+    flex-shrink: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+  }
+  .nvmygtblock {
+    width: 254px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--main-blue, #2e2bd0);
+  }
+  .navmygtimg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 190px;
+  }
+  .cu {
+    width: 129px;
+    height: 19px;
+    color: var(--main-white, #fff);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    left: 40px;
+  }
+  .navlin2 {
+    width: 1860px;
+    height: 0px;
+    flex-shrink: 0;
+    border: 1px solid rgba(47, 53, 63, 0.5);
+    top: 121px;
+    left: 30px;
+    position: absolute;
+  }
+  .kasmes {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    position: relative;
+    padding: 50px 150px;
+  }
+  .kasmestext {
+    color: #2f353f;
+    font-family: "Neue Machina", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .visiblok {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .stat-grid {
+    width: 1620px;
+    height: 491px;
+    left: 150px;
+    display: flex;
+    position: absolute;
+  }
+  .blokelis1 {
+    width: 357px;
+    height: 235px;
+    border: 1px solid #909398;
+    border-radius: 40px;
+    left: 905px;
+    position: absolute;
+  }
+  .blokelis2 {
+    width: 357px;
+    height: 235px;
+    border: 1px solid #909398;
+    border-radius: 40px;
+    left: 1262px;
+    position: absolute;
+  }
+  .blokelis3 {
+    width: 357px;
+    height: 235px;
+    border: 1px solid #909398;
+    border-radius: 40px;
+    background-image: url(../img/Block.png);
+    left: 885px;
+    top: 255px;
+    position: absolute;
+  }
+  .blokelis4 {
+    width: 357px;
+    height: 235px;
+    border: 1px solid #909398;
+    border-radius: 40px;
+    top: 235px;
+    left: 1262px;
+    position: absolute;
+  }
+  .blokelis3 {
+    background-color: #2e2bd0;
+  }
+  .numeriuks1 {
+    color: #2e2bd0;
+    font-family: "Neue Machina", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    top: 50px;
+    left: 955px;
+    position: absolute;
+  }
+  .numeriuks2 {
+    color: #2e2bd0;
+    font-family: "Neue Machina", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    top: 50px;
+    left: 1312px;
+    position: absolute;
+  }
+  .numeriuks3 {
+    font-family: "Neue Machina", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    top: 305px;
+    left: 935px;
+    position: absolute;
+    color: #fff;
+  }
+  .numeriuks4 {
+    color: #2e2bd0;
+    font-family: "Neue Machina", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    top: 285px;
+    left: 1312px;
+    position: absolute;
+  }
+  .tekstuks1 {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    top: 150px;
+    left: 955px;
+    position: absolute;
+  }
+  .tekstuks2 {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    top: 150px;
+    left: 1312px;
+    position: absolute;
+  }
+  .tekstuks3 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    top: 405px;
+    left: 935px;
+    position: absolute;
+    color: #fff;
+  }
+  .tekstuks4 {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    top: 349px;
+    left: 1312px;
+    position: absolute;
+  }
+  .tekstas1 {
+    width: 750px;
+    color: rgba(47, 53, 63, 0.7);
+    font-family: "Gilroy", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 40px;
+  }
+  .allpeople {
+    gap: 15px;
+    margin-top: 50px;
+    left: 0px;
+  }
+  .rutuliukai {
+    position: absolute;
+    display: flex;
+    left: 0px;
+  }
+  .c1 {
+    top: 799px;
+    left: 150px;
+    position: absolute;
+  }
+  .c2 {
+    top: 799px;
+    left: 281px;
+    position: absolute;
+  }
+  .c3 {
+    top: 799px;
+    left: 412px;
+    position: absolute;
+  }
+  .c5 {
+    top: 799px;
+    position: absolute;
+    left: 543px;
+  }
+  .c6 {
+    left: 674px;
+    top: 799px;
+    position: absolute;
+  }
+  .c7 {
+    top: 799px;
+    position: absolute;
+    left: 805px;
+  }
+  .c8 {
+    top: 799px;
+    position: absolute;
+    left: 936px;
+  }
+  .c9 {
+    left: 1067px;
+    top: 799px;
+    position: absolute;
+  }
+  .c10 {
+    left: 1198px;
+    top: 799px;
+    position: absolute;
+  }
+  .c11 {
+    top: 799px;
+    left: 1328px;
+    position: absolute;
+  }
+  .c12 {
+    top: 799px;
+    left: 1460px;
+    position: absolute;
+  }
+  .c4 {
+    top: 799px;
+    left: 1590px;
+    position: absolute;
+  }
+  .cplius {
+    width: 108px;
+    height: 108px;
+    top: 835px;
+    left: 1626px;
+    position: absolute;
+  }
+  .ourteam {
+    width: 1920px;
+    height: 1929px;
+    top: 1548px;
+    flex-shrink: 0;
+    position: absolute;
+  }
+  .ot {
+    width: 282px;
+    height: 90px;
+    left: 150px;
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    position: absolute;
+  }
+  .ottext {
+    width: 715px;
+    height: 108px;
+    top: 140px;
+    left: 900px;
+    color: rgba(47, 53, 63, 0.7);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    position: absolute;
+  }
+  .otimg {
+    border-radius: 70px;
+    border: 2px solid var(--main-blue, #2e2bd0);
+    background: lightgray 0px -376.069px / 100% 152.793% no-repeat;
+    width: 1860px;
+    height: 913px;
+    flex-shrink: 0;
+    top: 348px;
+    left: 30px;
+    position: absolute;
+    background-size: auto;
+  }
+  .otblokai {
+    width: 1620;
+    height: 568;
+    top: 1361px;
+    left: 150px;
+    border-width: 1px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .honesty {
+    width: 411;
+    height: 368;
+    top: 1461px;
+    left: 150px;
+    flex-shrink: 0;
+    position: absolute;
+  }
+  .hnr {
+    color: var(--main-blue, #2e2bd0);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 164px;
+    height: 58px;
+    top: 1461px;
+    left: 150px;
+    letter-spacing: 0%;
+  }
+  .hpav {
+    width: 241px;
+    height: 90px;
+    top: 1619px;
+    left: 150px;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: 0%;
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-style: normal;
+    font-weight: 400;
+  }
+  .htext {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0%;
+    width: 411px;
+    height: 90px;
+    top: 1739px;
+    left: 150px;
+  }
+  .otlinija1 {
+    height: 568px;
+    top: 1361px;
+    left: 644px;
+    position: absolute;
+    border: 1px solid #2e2bd0;
+  }
+  .otlinija2 {
+    height: 568px;
+    top: 1361px;
+    left: 1218px;
+    position: absolute;
+    border: 1px solid #2e2bd0;
+  }
+  .punctuality {
+    width: 408px;
+    height: 368px;
+    top: 1461px;
+    left: 727px;
+    flex-shrink: 0;
+    position: absolute;
+  }
+  .pnr {
+    width: 175px;
+    height: 58px;
+    top: 1461px;
+    left: 727px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 57.9px;
+    letter-spacing: 0%;
+    color: var(--main-blue, #2e2bd0);
+    font-family: "Neue Machina";
+    font-style: normal;
+  }
+  .ppav {
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 0%;
+    width: 348px;
+    height: 90px;
+    top: 1619px;
+    left: 727px;
+  }
+  .ptext {
+    width: 408px;
+    height: 90px;
+    top: 1739px;
+    left: 727px;
+    line-height: 45px;
+    letter-spacing: 0%;
+    color: rgba(47, 53, 63, 0.7);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .precision {
+    width: 468px;
+    height: 368px;
+    top: 1461px;
+    left: 1302px;
+    position: absolute;
+  }
+  .prnr {
+    color: var(--main-blue, #2e2bd0);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 176px;
+    height: 58px;
+    top: 1461px;
+    left: 1302px;
+    letter-spacing: 0%;
+  }
+  .prpav {
+    width: 283px;
+    height: 90px;
+    top: 1619px;
+    left: 1302px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: 0%;
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-style: normal;
+  }
+  .prtext {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+    letter-spacing: 0%;
+    width: 468px;
+    height: 90px;
+    top: 1739px;
+    left: 1302px;
+  }
+  .mobtextt{
+    display: none;
+  }
+  .tekstas11{
+    display: none;
+  } 
+  .kasmestextm{
+    display: none;
+  } 
+}
+@media screen and (max-width: 1080px){
+  .navbar {
+    display: none;
+  }
+  .kasmes {
+    width: 1000px;
+    height: 4056px;
+    position: relative;
+    left: 40px;
+  }
+  .c1{
+    display: none;
+  }
+  .c2{
+    display: none;
+  }
+  .c3{
+    display: none;
+  }
+  .c5{
+    display: none;
+  }
+  .c6{
+    display: none;
+  }
+  .c7{
+    display: none;
+  }
+  .c12{
+    display: none;
+  }
+  .kasmestext{
+    display: none;
+  }
+  .mobtextt{
+    width: 1000px;
+    height: 777px;
+    top: 316px;
+    position: absolute;
+  }
+  .tekstas11{
+    width: 1000px;
+    height: 600px;
+    top: 183px;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0%;    
+    color: #2F353FB2;
+    position: absolute;
+  }
+  .kasmestextm {
+    color: #2f353f;
+    font-family: "Neue Machina", sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    width: 812px;
+    height: 77px;
+    line-height: 77.2px;
+  }
+  .visiblok {
+    width: 1000px;
+    height: 2497px;
+    display: flex;
+    position: absolute;
+  }
+  .blokelis1 {
+    width: 1000px;
+    height: 625px;
+    border: 1.93px solid #909398;
+    border-radius: 90px;
+    position: absolute;
+    top: 1193px;
+  }
+  .blokelis2 {
+    width: 1000px;
+    height: 625px;
+    border: 1.93px solid #909398;
+    border-radius: 90px;
+    position: absolute;
+    top: 1817px;
+  }
+  .blokelis3 {
+    width: 1000px;
+    height: 625px;
+    border: 1.93px solid #909398;
+    border-radius: 90px;
+    top: 2443px;
+    position: absolute;
+  }
+  .blokelis4 {
+    width: 1000px;
+    height: 625px;
+    border: 1.93px solid #909398;
+    border-radius: 90px;
+    top: 3070px;
+    position: absolute;
+  }
+  .numeriuks1 {
+    color: #2e2bd0;
+    font-family: "Neue Machina", sans-serif;
+    font-size: 176px;
+    font-weight: 400;
+    top: 1103px;
+    left: 100px;
+    position: absolute;
+    line-height: 169.84px;
+    width: 213px;
+    height: 170px;
+  }
+  .numeriuks2 {
+    color: #2e2bd0;
+    font-family: "Neue Machina", sans-serif;
+    font-size: 176px;
+    font-weight: 400;
+    position: absolute;
+    width: 369px;
+    height: 170px;
+    top: 1727px;
+    left: 100px;
+    line-height: 169.84px;
+  }
+  .numeriuks3 {
+    font-family: "Neue Machina", sans-serif;
+    line-height: 169.84px;
+    font-size: 176px;
+    font-weight: 400;
+    top: 2351px;
+    left: 100px;
+    position: absolute;
+    color: #2e2bd0;
+    width: 326px;
+    height: 170px;
+  }
+  .numeriuks4 {
+    color: #2e2bd0;
+    font-family: "Neue Machina", sans-serif;
+    line-height: 169.84px;
+    font-size: 176px;
+    font-weight: 400;
+    top: 2975px;
+    left: 100px;
+    position: absolute;
+    width: 444px;
+    height: 170px;
+  }
+  .tekstuks1 {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: "Gilroy", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    top: 1593px;
+    left: 100px;
+    position: absolute;
+    width: 494px;
+    height: 75px;
+    line-height: 75px;
+  }
+  .tekstuks2 {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: "Gilroy", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    top: 2217px;
+    left: 100px;
+    position: absolute;
+    width: 394px;
+    height: 75px;
+    line-height: 75px;
+  }
+  .tekstuks3 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    top: 2841px;
+    left: 100px;
+    width: 410px;
+    height: 75px;
+    line-height: 75px;
+    position: absolute;
+    color: rgba(47, 53, 63, 0.7);
+  }
+  .tekstuks4 {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: "Gilroy", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    top: 3390px;
+    left: 100px;
+    width: 840px;
+    height: 150px;
+    line-height: 75px;
+    position: absolute;
+  }
+  .tekstas1 {
+    display: none;
+  }
+  .allpeople {
+    gap: 15px;
+    margin-top: 50px;
+    width: 1000px;
+    height: 266px;
+    top: 3790px;
+  }
+  .rutuliukai {
+    position: absolute;
+    display: flex;
+  }
+  .c8 {
+    top: 3790px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+  }
+  .c9 {
+    left: 158px;
+    top: 3790px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+  }
+  .c10 {
+    left: 342px;
+    top: 3790px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+  }
+  .c11 {
+    top: 3790px;
+    left: 525px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+  }
+  .c4 {
+    top: 3790px;
+    left: 708px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+  }
+  .cplius {
+    width: 174px;
+    height: 174px;
+    top: 3843px;
+    left: 760.91px;
+    position: absolute;
+  }
+  .ourteam {
+    width: 1000px;
+    height: 3203px;
+    top: 4406px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 40px;
+  }
+  .ot {
+    width: 376px;
+    height: 77px;
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77.2px;
+    position: absolute;
+  }
+  .ottext {
+    width: 1000px;
+    height: 240px;
+    top: 177px;
+    color: rgba(47, 53, 63, 0.7);
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    position: absolute;
+
+  }
+  .otimg {
+    border-radius: 70px;
+    border: 2px solid var(--main-blue, #2e2bd0);
+    background: lightgray 0px -376.069px / 100% 152.793% no-repeat;
+    width: 1000px;
+    height: 715px;
+    flex-shrink: 0;
+    top: 517px;
+    position: absolute;
+    background-size: auto;
+  }
+  .otblokai {
+    width: 1000px;
+    height: 1821px;
+    top: 1382px;
+    left: 40px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .honesty {
+    width: 1000px;
+    height: 437px;
+    top: 1382px;
+    flex-shrink: 0;
+    position: absolute;
+  }
+  .hnr {
+    color: var(--main-blue, #2e2bd0);
+    font-family: "Neue Machina";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 77.2px;
+    width: 218px;
+    height: 77px;
+    top: 1382px;
+    letter-spacing: 0%;
+  }
+  .hpav {
+    width: 241px;
+    height: 90px;
+    top: 1559px;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: 0%;
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-weight: 400;
+  }
+  .htext {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: Gilroy;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0%;
+    width: 1000px;
+    height: 150px;
+    top: 1669px;
+  }
+  .otlinija1 {
+    height: 1000px;
+    top: 1513px;
+    position: absolute;
+    border: 3px solid #2e2bd0;
+    rotate: 90deg;
+    left: 500px;
+  }
+  .otlinija2 {
+    height: 1000px;
+    top: 2220px;
+    left: 500px;
+    position: absolute;
+    border: 3px solid #2e2bd0;
+    rotate: 90deg;
+  }
+  .punctuality {
+    width: 1000px;
+    height: 437px;
+    top: 2059px;
+    flex-shrink: 0;
+    position: absolute;
+  }
+  .pnr {
+    width: 233px;
+    height: 77px;
+    top: 2059px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 77.2px;
+    letter-spacing: 0%;
+    color: var(--main-blue, #2e2bd0);
+    font-family: "Neue Machina";
+  }
+  .ppav {
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 0%;
+    width: 348px;
+    height: 90px;
+    top: 2236px;
+  }
+  .ptext {
+    width: 1000px;
+    height: 150px;
+    top: 2346px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    color: rgba(47, 53, 63, 0.7);
+    font-family: Gilroy;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .precision {
+    width: 1000px;
+    height: 437px;
+    top: 2766px;
+    position: absolute;
+  }
+  .prnr {
+    color: var(--main-blue, #2e2bd0);
+    font-family: "Neue Machina";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: normal;
+    width: 234px;
+    height: 77px;
+    top: 2766px;
+    letter-spacing: 0%;
+  }
+  .prpav {
+    width: 283px;
+    height: 90px;
+    top: 2943px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: 0%;
+    color: var(--main-light, #2f353f);
+    font-family: "Neue Machina";
+  }
+  .prtext {
+    color: rgba(47, 53, 63, 0.7);
+    font-family: Gilroy;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 77.2;
+    letter-spacing: 0%;
+    width: 1000px;
+    height: 150px;
+    top: 3053px;
+    position: absolute;
+  }
+  .mrlogo{
+    width: 350px;
+    height: 116px;
+    left: 345px;
+    position: absolute;
+  }
+  .mmlinijos{
+    width: 116px;
+    height: 116px;
+    left: 40px;
+    position: absolute;
+  }
+  .mmblock{
+    width: 116px;
+    height: 116px;
+    border-radius: 20px;
+    background-color: #2e2bd0;
+  }
+  .mmpick{
+    width: 60px;
+    height: 60px;
+    top: 28px;
+    left: 28px;
+    position: absolute;
+  }
+  .mmneubar{
+    width: 1040px;
+    height: 116px;
+    position: absolute;
+    display: flex;
+    top: 60px;
+  }
+  .ponasrodykle{
+    width: 116px;
+    height: 116px;
+    left: 904px;
+    display: flex;
+    position: absolute;
+  }
+  .mrrod{
+    width: 60px;
+    height: 60px;
+    top: 28px;
+    left: 28px;
+    position: absolute;
+  }
+  .mrblock{
+    width: 116px;
+    height: 116px;
+    border-radius: 20px;
+    background-color: #2e2bd0;
+  }
+}
+.body{
+  width: 1080px;
+  height: 15241px;
+  
 }

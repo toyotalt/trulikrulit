@@ -1,317 +1,1226 @@
-/*industries*/
-.industrijos {
-  width: 1920px;
-  height: 618px;
-  top: 6361px;
-  position: absolute;
+@media screen and (min-width: 1081px){
+  .industrijos {
+    width: 1920px;
+    height: 618px;
+    top: 6361px;
+    position: absolute;
+  }
+  .indus {
+    display: flex;
+  }
+  .indpagpav {
+    width: 313px;
+    height: 58px;
+    left: 150px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 57.9px;
+    color: #2f353f;
+    position: relative;
+  }
+  .indpav1 {
+    width: 185px;
+    height: 60px;
+    top: 140px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #2f353f;
+  }
+  .indpav2 {
+    width: 255px;
+    height: 60px;
+    top: 140px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #2f353f;
+  }
+  .indpav3 {
+    width: 262px;
+    height: 60px;
+    top: 140px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #2f353f;
+  }
+  .ind1 {
+    width: 506px;
+    height: 460px;
+    top: 158px;
+    left: 150px;
+    text-align: left;
+    position: absolute;
+  }
+  .ind2 {
+    width: 506px;
+    height: 460px;
+    top: 158px;
+    left: 707px;
+    text-align: left;
+    position: absolute;
+  }
+  .ind3 {
+    width: 506px;
+    height: 460px;
+    top: 158px;
+    left: 1264px;
+    text-align: left;
+    position: absolute;
+  }
+  .logotipas {
+    width: 100px;
+    height: 100px;
+  }
+  .indtekstas {
+    width: 506px;
+    height: 180px;
+    top: 280px;
+    font: "gilroy";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2f353f;
+  }
+  .indlinija {
+    border: 1px solid #2f353f;
+    width: 506px;
+    top: 240px;
+  }
+  /*get in touch*/
+  .kontaktai {
+    width: 1860px;
+    height: 1004px;
+    top: 7229px;
+    left: 30px;
+    position: absolute;
+    display: flex;
+  }
+  .kontpav {
+    width: 645px;
+    height: 260px;
+    top: 100px;
+    left: 120px;
+    line-height: 130px;
+    position: absolute;
+    color: var(--main-white, #fff);
+    font-family: "Neue Machina";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .konttext {
+    width: 700px;
+    height: 180px;
+    top: 133px;
+    left: 1040px;
+    line-height: 36px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .textemail {
+    color: var(--main-white, #fff);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    position: absolute;
+  }
+  .brief {
+    width: 370px;
+    height: 58px;
+    top: 362px;
+    left: 1040px;
+    padding: 17px 40px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 28px;
+    border-radius: 10px;
+    border: 1px solid var(--main-white, #fff);
+    position: absolute;
+    background-color: transparent;
+  }
+  .ftft {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .brieftext {
+    color: var(--main-white, #fff);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .briefimg {
+    width: 24px;
+    height: 24px;
+  }
+  .kont {
+    width: 1860px;
+    height: 1004px;
+    border-radius: 70px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: linear-gradient(66deg, #2e2bd0 -67.89%, #7876f2 125.28%);
+  }
+  input[type="text"] {
+    width: 700px;
+    height: 61.5px;
+    top: 510px;
+    left: 120px;
+    position: absolute;
+    background: transparent;
+    border: 0px;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  input[type="email"] {
+    width: 700px;
+    height: 61.5px;
+    top: 622px;
+    left: 120px;
+    position: absolute;
+    border: 0;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  input[type="telefonas"] {
+    width: 700px;
+    height: 61.5px;
+    top: 734px;
+    left: 120px;
+    position: absolute;
+    border: 0;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  input[type="filas"] {
+    width: 700px;
+    height: 61.5px;
+    top: 622px;
+    left: 1040px;
+    background: transparent;
+    border: 0;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  input[type="text1"] {
+    width: 700px;
+    height: 61.5px;
+    top: 510px;
+    left: 1040px;
+    background: transparent;
+    position: absolute;
+    border: 0;
+    color: grey;
+  }
+  .pateikti {
+    width: 205px;
+    height: 58px;
+    top: 846px;
+    left: 120px;
+    border-radius: 10px;
+    padding-top: 17px;
+    padding-right: 40px;
+    padding-left: 120px;
+    padding-bottom: 17px;
+    gap: 10px;
+    position: absolute;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+  .gtgt {
+    display: flex;
+    gap: 20px;
+    width: 125px;
+    height: 24px;
+    align-items: center;
+  }
+  .subimg {
+    width: 24px;
+    height: 24px;
+  }
+  .subtext {
+    color: var(--main-blue, #2e2bd0);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  input[type="filas"] {
+    width: 700px;
+    height: 61.5px;
+    top: 622px;
+    left: 1040px;
+    position: absolute;
+    background-color: transparent;
+  }
+  input[type="apibudinimas"] {
+    width: 700px;
+    height: 61.5px;
+    top: 510px;
+    left: 1040px;
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Neue Machina";
+    font-style: normal;
+  }
+  .linija4 {
+    width: 700px;
+    top: 61.5px;
+    border: 1px;
+    position: absolute;
+    color: #ffffff;
+  }
+  
+  .galas{
+    width: 1860px;
+    height: 564px;
+    top: 8483px;
+    left: 30px;
+    position: absolute;
+  }
+  .gallinija1{
+      width: 1860px;
+      border: 1px solid #2F353F80;
+      justify-items: center;
+  }
+  .gallinija2 {
+      width: 1860px;
+      top: 495px;
+      border: 1px solid #2F353F80;
+      position: absolute;
+  }
+  .galkont{
+      width: 298px;
+      height: 395px;
+      top: 50px;
+      left: 120px;
+      position: absolute;
+  }
+  .soctinklai{
+      width: 270px;
+      height: 60px;
+      top: 226px;
+      position: absolute;
+      display: flex;
+  }
+  .socft1{
+      width: 60px;
+      height: 60px;
+      border-radius: 15px;
+      border: 1.13px solid #2E2BD0;
+      position: absolute;
+  }
+  .socft2{
+      width: 60px;
+      height: 60px;
+      left: 70px;
+      border-radius: 15px;
+      border: 1.13px solid #2E2BD0;
+      position: absolute;
+  }
+  .socft3{
+      width: 60px;
+      height: 60px;
+      left: 140px;
+      border-radius: 15px;
+      border: 1.13px solid #2E2BD0;
+      position: absolute;
+  }
+  .socft4{
+      width: 60px;
+      height: 60px;
+      left: 210px;
+      border-radius: 15px;
+      border: 1.13px solid #2E2BD0;
+      position: absolute;
+  }
+  .ftt{
+      width: 45px;
+      height: 45px;
+      top: 7.5px;
+      left: 7.5px;
+      position: absolute;
+  }
+  .galmygt{
+      width: 254px;
+      height: 59px;
+      top: 336px;
+      position: absolute;
+      border-radius: 15px;
+      background-color: #2E2BD0;
+      border: 0;
+  }
+  .CONTACTUS{
+      width: 129px;
+      height: 19px;
+      top: 4.5px;
+      left: 35px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 19.3px;
+      color: white;
+  }
+  .mygtrodykle{
+      width: 24px;
+      height: 24px;
+      top: 13.5px;
+      left: 170px;
+      rotate: -180;
+      position: absolute;
+      color: white;
+  }
+  .galemail{
+    width: 298px;
+    height: 36px;
+    top: 140px;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: underline;
+    text-decoration: solid;
+    position: absolute;
+    color: #2E2BD0;
+  }
+  .offices{
+    width: 390px;
+    height: 283px;
+    top: 61px;
+    left: 919px;
+    position: absolute;
+  }
+  .minsk{
+    width: 390px;
+    height: 92px;
+    top: 69px;
+    position: absolute;
+  }
+  .minskpav{
+    width: 75px;
+    height: 24px;
+    top: 69px;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    font-style: normal;
+  }
+  .minsknr{
+    width: 176px;
+    height: 24px;
+    top: 103px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2f353f;
+    font-style: normal;
+  }
+  .minskadresas{
+    width: 390px;
+    height: 24px;
+    top: 137px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2f353f;
+    font-style: normal;
+  }
+  .vln{
+    width: 390px;
+    height: 92px;
+    top: 191px;
+    position: absolute;
+    flex-shrink: 0;
+  }
+  .vlnpav{
+    width: 80px;
+    height: 24px;
+    top: 191px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    font-style: normal;
+  }
+  .vlnnr{
+    width: 193px;
+    height: 24px;
+    top: 225px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2f353f;
+    font-style: normal;
+  }
+  .vlnadresas{
+    width: 390px;
+    height: 24px;
+    top: 259px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: #2f353f;
+    font-style: normal;
+  }
+  .services{
+    width: 231px;
+    height: 363px;
+    top: 61px;
+    left: 1509px;
+    position: absolute;
+  }
+  .ts{
+    width: 166px;
+    height: 24px;
+    top: 69px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .fd{
+    width: 211px;
+    height: 24px;
+    top: 123px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .bd{
+    width: 210px;
+    height: 24px;
+    top: 177px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .mad{
+    width: 231px;
+    height: 24px;
+    top: 231px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .ui{
+    width: 121px;
+    height: 24px;
+    top: 285px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .sd{
+    width: 212px;
+    height: 24px;
+    top: 339px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .info{
+    width: 1860px;
+    height: 19px;
+    top: 545px;
+    position: absolute;
+  }
+  .info1{
+    width: 254px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #2f353f;
+    position: absolute;
+  }
+  .info2{
+    width: 97px;
+    height: 19px;
+    left: 882px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #2f353f;
+    position: absolute;
+  }
+  .info3{
+    width: 182px;
+    height: 19px;
+    left: 1678px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    align-items: right;
+    color: #2f353f;
+    position: absolute;
+  }
+  .gallogo{
+    width: 39px;
+    height: 40px;
+    position: absolute;
+  }
+  .officespav{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+  }
+  .servpav{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+  }
+  
+  .tech {
+    width: 1920px;
+    height: 640px;
+    top: 5471px;
+    position: absolute;
+  }
+  .techpav {
+    width: 556px;
+    height: 58px;
+    left: 150px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 57.9px;
+    position: absolute;
+  }
+  .techtext {
+    width: 634px;
+    height: 144px;
+    top: 158px;
+    left: 900px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2f353fb2;
+    position: absolute;
+  }
+  .techlinija {
+    width: 1620px;
+    top: 421px;
+    left: 150px;
+    rotate: -0deg;
+    position: absolute;
+    stroke-width: 1px;
+    border: 1px solid rgba(147, 150, 155, 0.50);
+  
+  }
+  .box1 {
+    width: 220px;
+    height: 238px;
+    top: 402px;
+    left: 150px;
+    position: absolute;
+  }
+  .t1{
+    width: 228px;
+    height: 68px;
+    top: 462px;
+    color: var(--main-light, #2F353F);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Neue Machina";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    position: flex;
+  }
+  .elipse2{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--purple-light, #CBCAF3);
+    position: absolute;
+  }
+  .elipse1{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background-color: #2e2bd0;
+    position: absolute;
+    left: 10px;
+  }
+  .elipse3{
+    width: 40px;
+    height: 40px;
+    top: 402px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .techblock{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1.5px solid var(--main-blue, #2E2BD0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .jvscrpt{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  .javalogo{
+    top: 560px;
+    left: 150px;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+  }
+  .box2{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 422px;
+    position: absolute;
+  
+  }
+  .taskiuks2{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }.t2{
+    width: 151px;
+    height: 46px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box3{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 636px;
+    position: absolute;
+  }
+  .taskiuks3{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 636px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t3{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box4{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 831px;
+    position: absolute;
+  }
+  .taskiuks4{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 831px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t4{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box5{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 1026px;
+    position: absolute;
+  }
+  .taskiuks5{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 1026px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t5{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box6{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 1213px;
+    position: absolute;
+  }
+  .taskiuks6{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 1213px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t6{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box7{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 1403px;
+    position: absolute;
+  }
+  .taskiuks7{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 1403px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t7{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box8{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 1619px;
+    position: absolute;
+  }
+  .taskiuks8{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 1619px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t8{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
 }
-.indus {
-  display: flex;
-}
-.indpagpav {
-  width: 313px;
-  height: 58px;
-  left: 150px;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 57.9px;
-  color: #2f353f;
-  position: relative;
-}
-.indpav1 {
-  width: 185px;
-  height: 60px;
-  top: 140px;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 60px;
-  color: #2f353f;
-}
-.indpav2 {
-  width: 255px;
-  height: 60px;
-  top: 140px;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 60px;
-  color: #2f353f;
-}
-.indpav3 {
-  width: 262px;
-  height: 60px;
-  top: 140px;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 60px;
-  color: #2f353f;
-}
-.ind1 {
-  width: 506px;
-  height: 460px;
-  top: 158px;
-  left: 150px;
-  text-align: left;
-  position: absolute;
-}
-.ind2 {
-  width: 506px;
-  height: 460px;
-  top: 158px;
-  left: 707px;
-  text-align: left;
-  position: absolute;
-}
-.ind3 {
-  width: 506px;
-  height: 460px;
-  top: 158px;
-  left: 1264px;
-  text-align: left;
-  position: absolute;
-}
-.logotipas {
-  width: 100px;
-  height: 100px;
-}
-.indtekstas {
-  width: 506px;
-  height: 180px;
-  top: 280px;
-  font: "gilroy";
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #2f353f;
-}
-.indlinija {
-  border: 1px solid #2f353f;
-  width: 506px;
-  top: 240px;
-}
-/*get in touch*/
-.kontaktai {
-  width: 1860px;
-  height: 1004px;
-  top: 7229px;
-  left: 30px;
-  position: absolute;
-  display: flex;
-}
-.kontpav {
-  width: 645px;
-  height: 260px;
-  top: 100px;
-  left: 120px;
-  line-height: 130px;
-  position: absolute;
-  color: var(--main-white, #fff);
-  font-family: "Neue Machina";
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 400;
-}
-.konttext {
-  width: 700px;
-  height: 180px;
-  top: 133px;
-  left: 1040px;
-  line-height: 36px;
-  position: absolute;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: "Gilroy";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-}
-.textemail {
-  color: var(--main-white, #fff);
-  font-family: Gilroy;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 150%;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: auto;
-  text-underline-offset: auto;
-  text-underline-position: from-font;
-  position: absolute;
-}
-.brief {
-  width: 370px;
-  height: 58px;
-  top: 362px;
-  left: 1040px;
-  padding: 17px 40px;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  gap: 28px;
-  border-radius: 10px;
-  border: 1px solid var(--main-white, #fff);
-  position: absolute;
-  background-color: transparent;
-}
-.ftft {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.brieftext {
-  color: var(--main-white, #fff);
-  font-family: "Neue Machina";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.briefimg {
-  width: 24px;
-  height: 24px;
-}
-.kont {
-  width: 1860px;
-  height: 1004px;
-  border-radius: 70px;
-  flex-shrink: 0;
-  border-radius: 70px;
-  background: linear-gradient(66deg, #2e2bd0 -67.89%, #7876f2 125.28%);
-}
-input[type="text"] {
-  width: 700px;
-  height: 61.5px;
-  top: 510px;
-  left: 120px;
-  position: absolute;
-  background: transparent;
-  border: 0px;
-  color: rgba(255, 255, 255, 0.4);
-  font-family: "Neue Machina";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px;
-}
-input[type="email"] {
-  width: 700px;
-  height: 61.5px;
-  top: 622px;
-  left: 120px;
-  position: absolute;
-  border: 0;
-  background: transparent;
-  color: rgba(255, 255, 255, 0.4);
-  font-family: "Neue Machina";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px;
-}
-input[type="telefonas"] {
-  width: 700px;
-  height: 61.5px;
-  top: 734px;
-  left: 120px;
-  position: absolute;
-  border: 0;
-  background: transparent;
-  color: rgba(255, 255, 255, 0.4);
-  font-family: "Neue Machina";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px;
-}
-input[type="filas"] {
-  width: 700px;
-  height: 61.5px;
-  top: 622px;
-  left: 1040px;
-  background: transparent;
-  border: 0;
-  position: absolute;
-  color: rgba(255, 255, 255, 0.4);
-  font-family: "Neue Machina";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px;
-}
-input[type="text1"] {
-  width: 700px;
-  height: 61.5px;
-  top: 510px;
-  left: 1040px;
-  background: transparent;
-  position: absolute;
-  border: 0;
-  color: grey;
-}
-.pateikti {
-  width: 205px;
-  height: 58px;
-  top: 846px;
-  left: 120px;
-  border-radius: 10px;
-  padding-top: 17px;
-  padding-right: 40px;
-  padding-left: 120px;
-  padding-bottom: 17px;
-  gap: 10px;
-  position: absolute;
-  display: flex;
-  align-items: right;
-  justify-content: right;
-}
-.gtgt {
-  display: flex;
-  gap: 20px;
-  width: 125px;
-  height: 24px;
-  align-items: center;
-}
-.subimg {
-  width: 24px;
-  height: 24px;
-}
-.subtext {
-  color: var(--main-blue, #2e2bd0);
-  font-family: "Neue Machina";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-}
-input[type="filas"] {
-  width: 700px;
-  height: 61.5px;
-  top: 622px;
-  left: 1040px;
-  position: absolute;
-  background-color: transparent;
-}
-input[type="apibudinimas"] {
-  width: 700px;
-  height: 61.5px;
-  top: 510px;
-  left: 1040px;
-  position: absolute;
-  background-color: transparent;
-  border: 0;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 48px;
-  color: rgba(255, 255, 255, 0.4);
-  font-family: "Neue Machina";
-  font-style: normal;
-}
-.linija4 {
-  width: 700px;
-  top: 61.5px;
-  border: 1px;
-  position: absolute;
-  color: #ffffff;
+@media screen and (max-width: 1080px){
+  .body{
+    width: 1080px;
+    height: 19250px;
+    left: 12248px;
+  }
+  .tech {
+    width: 1000px;
+    height: 1511px;
+    top: 12225px;
+    position: absolute;
+    left: 40px;
+  }
+  .techlauk{
+    width: 1000px;
+    height: 417px;
+
+  }
+  .techpav {
+    width: 741px;
+    height: 77px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 77.2px;
+    position: absolute;
+  }
+  .techtext {
+    width: 1000px;
+    height: 240px;
+    top: 177px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #2f353fb2;
+    position: absolute;
+  }
+  .tichlauk{
+    width: 680px;
+    height: 994px;
+    top: 517px;
+    position: absolute;
+    display: flex;
+  }
+  .techlinija {
+    width: 942px;
+    left: -444px;
+    transform: rotate(90deg);
+    stroke-width: 1px;
+    border: 3px solid rgba(147, 150, 155, 0.50);
+    height: 0;
+    flex-shrink: 0;
+    position: absolute;
+    top: 503px;
+  }
+  .box1 {
+    width: 680px;
+    height: 226px;
+    position: absolute;
+  }
+  .t1{
+    height: 52px;
+    color: var(--main-light, #2F353F);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Neue Machina";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    left: 110px;
+    position: absolute;
+    top: 0;
+  }
+  .elipse2{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--purple-light, #CBCAF3);
+    position: absolute;
+  }
+  .elipse1{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background-color: #2e2bd0;
+    position: absolute;
+    left: 15px;
+  }
+  .elipse3{
+    width: 60px;
+    height: 60px;
+    top: 517px;
+    display: flex;
+    align-items: center;
+  }
+  .techblock{
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid var(--main-blue, #2E2BD0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .jvscrpt{
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+  }
+  .javalogo{
+    top: 110px;
+    left: 110px;
+    display: flex;
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    position: absolute;
+  }
+  .box2{
+    width: 575px;
+    height: 44px;
+    top: 843px;
+    left: 20px;
+    position: absolute;
+  
+  }
+  .taskiuks2{
+    width: 20px;
+    height: 20px;
+    top: 855px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }.t2{
+    width: 485px;
+    height: 44px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44.2px;
+    color: rgba(47, 53, 63, 0.70);
+    left: 110px;
+    position: absolute;
+    top: 0;
+  }
+  .box3{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 110px;
+    position: absolute;
+  }
+  .taskiuks3{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 636px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t3{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box4{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 831px;
+    position: absolute;
+  }
+  .taskiuks4{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 831px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t4{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box5{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 1026px;
+    position: absolute;
+  }
+  .taskiuks5{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 1026px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t5{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box6{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 1213px;
+    position: absolute;
+  }
+  .taskiuks6{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 1213px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t6{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box7{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 1403px;
+    position: absolute;
+  }
+  .taskiuks7{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 1403px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t7{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
+  .box8{
+    width: 162px;
+    height: 93px;
+    top: 415px;
+    left: 1619px;
+    position: absolute;
+  }
+  .taskiuks8{
+    width: 15px;
+    height: 15px;
+    top: 415px;
+    left: 1619px;
+    background-color: #93969B;
+    border-radius: 10px;
+  }
+  .t8{
+    width: 151px;
+    height: 46px;
+    top: 462px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: rgba(47, 53, 63, 0.70);
+  }
 }
