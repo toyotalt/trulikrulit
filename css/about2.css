@@ -1,6 +1,6 @@
 
 
-header{
+.header{
     width: 1000px;
     height: 208px;
     gap: 0px;
@@ -16,15 +16,17 @@ header{
     padding-bottom: 100px;
 }
 @media (min-width: 1024px){
-    header{
+    .header{
         color: var(--main-light, #2F353F);
         font-family: "Neue Machina";
         font-size: 60px;
         font-style: normal;
         font-weight: 400;
         line-height: 150%; /* 90px */
-        padding-left: 150px;
+        left: 150px;
         width: 540px;
+        position: absolute;
+        top: 3777px;
         
     }
 } 
@@ -57,8 +59,10 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%;
-padding-left: 900px;
-padding-right: 305px; }
+position: absolute;
+left: 900px;
+right: 305px;
+top: 4007px; }
 
 }
 .block1{
@@ -75,7 +79,10 @@ height: 757px;
 flex-shrink: 0;
 border-radius: 70px;
 background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
-    }
+    position: absolute;
+    top: 4215px;
+
+}
 
 }
 .year{
@@ -705,6 +712,7 @@ font-weight: 400;
 line-height: normal;
 position: absolute;
 left: 150px;
+top: 4945px;
   } 
 }
 .container4{
@@ -743,6 +751,7 @@ flex-shrink: 0;
 border-radius: 40px;
 border: 1px solid #909398;
 position: absolute;
+top: 5430px;
 
 
     }
@@ -842,7 +851,7 @@ left: 50px;
         font-weight: 400;
         line-height: 130%; /* 26px */  
         padding-left: 50px;
-       top: 239px;
+       top: 245px;
     }
 }
 .container5{
@@ -868,7 +877,8 @@ height: 1228px;
 flex-shrink: 0;
 border-radius: 70px;
 background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
-
+position: absolute;
+top:6583px ;
     }
 }
 .getin{
@@ -1016,7 +1026,8 @@ background-color:#FFF ;
 @media (min-width: 1024px){
     .forum{
         position: absolute;
-        padding-top: 0px;
+       
+        top: 250px ;
     }
 }
 .padding60{
@@ -1125,6 +1136,7 @@ position: absolute;
 border: 1.125px solid var(--main-blue, #2E2BD0);
 position: absolute; 
     left:150px;
+    
    
 
 
@@ -1211,8 +1223,8 @@ border: 1.125px solid var(--main-blue, #2E2BD0);
 @media (min-width: 1024px){
     .icons{
     
-      
-top: 226px;
+      position: absolute;
+top: 8060px;
 
 }}
 
@@ -1225,6 +1237,7 @@ top: 226px;
     .contact{padding-top:50px ;
         position: absolute;
         left: 150px;
+        top: 8458px;
         
        
 }}
@@ -1252,7 +1265,7 @@ top: 226px;
   
     position: absolute;
     left: 949px;
-    top: 4057px;
+    top: 7795px;
 
        
 }}
@@ -1286,7 +1299,7 @@ line-height: normal;
     .minsk{
         position: absolute;
         left: 949px;
-        top: 4544px;
+        top: 8241px;
 
     }
 }
@@ -1298,7 +1311,7 @@ line-height: normal;
     .vilnius{
         position: absolute;
         left: 949px;
-        top: 4642px;
+        top: 8363px;
 
     }
 }
@@ -1332,7 +1345,8 @@ padding-top: 105px;
     .number1{
         position: absolute;
         left: 949px;
-        top: 4570px;
+        top: 8275px;
+      width: 176px;  
 
     }
 }
@@ -1345,7 +1359,8 @@ padding-top: 105px;
     .number2{
         position: absolute;
         left: 949px;
-        top: 4668px;
+        top:8397px;
+        width: 176px;  
 
     }
 }
@@ -1378,7 +1393,7 @@ line-height: normal;
     .adress1{
         position: absolute;
         left: 949px;
-        top: 4596px;
+        top: 8309px;
 
     }
 }
@@ -1391,7 +1406,7 @@ line-height: normal;
     .adress2{
         position: absolute;
         left: 949px;
-        top: 4694px;
+        top: 8431px;
 
     }
 }
@@ -1423,7 +1438,7 @@ line-height: normal;
 text-transform: lowercase;
 position: absolute;
 left:1539px ;
-top: 4310px;
+top: 8054px;
     }
 }
 .ser1{
@@ -1442,9 +1457,37 @@ top: 4310px;
     position: absolute;
     left: 40px;
 }
+@media (min-width: 1024px){
+    .Technical{
+        color: var(--main-blue, #2E2BD0);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 1539px;
+        top:8241px ;
+        width: 166px;
+    }
+}
 .Mobile{
     position: absolute;
     left: 572px;
+}
+@media (min-width: 1024px){
+    .Mobile{
+        color: var(--main-blue, #2E2BD0);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 1539px;
+        top:8403px ;
+        width: 231px;
+    }
 }
 .ser2{
     color: var(--main-blue, #2E2BD0);
@@ -1462,9 +1505,37 @@ display: inline-flex;
     position: absolute;
     left: 40px;
 }
+@media (min-width: 1024px){
+    .Frontend{
+        color: var(--main-blue, #2E2BD0);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 1539px;
+        top:8295px ;
+        width: 211px;
+    }
+}
 .UI{
     position: absolute;
     left: 572px;
+}
+@media (min-width: 1024px){
+    .UI{
+        color: var(--main-blue, #2E2BD0);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 1539px;
+        top:8457px ;
+        width: 231px;
+    }
 }
 .ser3{
     color: var(--main-blue, #2E2BD0);
@@ -1483,11 +1554,41 @@ display: inline-flex;
     left: 40px;
     padding-top: 90px;
 }
+@media (min-width: 1024px){
+    .Backend{
+        color: var(--main-blue, #2E2BD0);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 1539px;
+        top:8349px ;
+        width: 231px;
+        padding: 0px;
+    }
+}
 .Software{
     position: absolute;
     left: 572px;
     padding-top: 90px; 
     
+}
+@media (min-width: 1024px){
+    .Software{
+        color: var(--main-blue, #2E2BD0);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 1539px;
+        top:8511px ;
+        width: 231px;
+        padding: 0px;
+    }
 }
 .linelast{
     width: 1000px;
@@ -1499,6 +1600,19 @@ left: 40px;
 
 
 }
+@media (min-width: 1024px){
+    .linelast{
+        width: 1860px;
+height: 1px;
+flex-shrink: 0;
+
+background-color: rgba(47, 53, 63, 0.50);
+position: absolute;
+left:30px ;
+top:8656px ;
+    }
+}
+
 .paddingidk{
    padding-top: 198px; 
 }
@@ -1517,9 +1631,35 @@ padding-top:50px ;
     left: 40px;
 
 }
+@media (min-width: 1024px){
+    .footer1{
+        color: rgba(47, 53, 63, 0.50);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 30px;
+        top: 8706px;
+    }
+}
 .footer2{
     position: absolute;
     left:799px ;
+}
+@media (min-width: 1024px){
+    .footer2{
+        color: rgba(47, 53, 63, 0.50);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 882px;
+        top: 8706px;
+    }
 }
 .it2023{
     color: rgba(47, 53, 63, 0.50);
@@ -1531,6 +1671,20 @@ line-height: normal;
 padding-top: 98px;
 position: absolute;
 left: 40px;
+}
+@media (min-width: 1024px){
+    .it2023{
+        color: rgba(47, 53, 63, 0.50);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 1622px;
+        top: 8610px;
+        width: 268px;
+    }
 }
 .icons{
     display: flex;
@@ -1611,6 +1765,7 @@ font-weight: 400;
 line-height: 150%; /* 48px */
 position: absolute;
 left:933px ;
+top:6234px ;
 display: inline-flex;
 
 
@@ -1639,6 +1794,19 @@ display: inline-flex;
       
     }
 }
+@media (min-width: 1024px){
+    .line123{
+        width: 1860px;
+        height: 1px;
+        flex-shrink: 0;
+        stroke-width: 1px;
+background-color: rgba(47, 53, 63, 0.50);
+position: absolute;
+left: 30px;
+top:8111px ;
+      
+    }
+}
 .viewtheprojects{
    width: 424px;
    height: 75px; 
@@ -1664,7 +1832,7 @@ display: inline-flex;
         position: absolute;
         width: 700;
         height: 618;
-       
+       top:1070px ;
         left: 120px;
         
     }
@@ -1863,6 +2031,27 @@ top: 3777px;
                 height: 564;
                 top: 8111px;
                 left: 30px;
+                
+                
+            }}
+            
+             @media(min-width: 1024px) {
+            .itsupportgroup2{
+                color: var(--main-blue, #2E2BD0);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 36px */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+position: absolute;
+left: 150px;
+top:8100px ;
                 
                 
             }}
