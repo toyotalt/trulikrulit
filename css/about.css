@@ -635,6 +635,9 @@
   .kasmestextm{
     display: none;
   } 
+  .mrlogo{
+    display: none;
+  }
 }
 @media screen and (max-width: 1080px){
   .navbar {
@@ -1129,8 +1132,8 @@
     background-color: #2e2bd0;
   }
 }
-.body{
+body{
   width: 1080px;
   height: 15241px;
-  
+  position: absolute;
 }

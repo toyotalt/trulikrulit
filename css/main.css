@@ -726,17 +726,18 @@
     align-items: center;
     display: flex;
   }
-  .jvscrpt{
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
-  }
   .javalogo{
-    top: 560px;
-    left: 150px;
+    top: 660px;
     display: flex;
     width: 80px;
     height: 80px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 160px;
+  }
+  .jvscrpt{
+    width: 60px;
+    height: 60px;
     flex-shrink: 0;
   }
   .box2{
@@ -919,12 +920,17 @@
     line-height: 23.4px;
     color: rgba(47, 53, 63, 0.70);
   }
+  .box1m, .box2m, .box3m, .box4m, .box5m, .box6m, .box7m{
+    display: none;
+  }
 }
 @media screen and (max-width: 1080px){
-  .body{
+  .industrijos, .kontaktai, .galas{
+    display: none;
+  }
+  body{
     width: 1080px;
     height: 19250px;
-    left: 12248px;
   }
   .tech {
     width: 1000px;
@@ -981,7 +987,6 @@
   }
   .t1{
     height: 52px;
-    color: var(--main-light, #2F353F);
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: "Neue Machina";
     font-size: 40px;
@@ -1040,187 +1045,130 @@
     flex-shrink: 0;
     position: absolute;
   }
-  .box2{
+  .box2, .taskiuks2, .t2,
+  .box3, .taskiuks3, .t3,
+  .box4, .taskiuks4, .t4,
+  .box5, .taskiuks5, .t5,
+  .box6, .taskiuks6, .t6,
+  .box7, .taskiuks7, .t7,
+  .box8, .taskiuks8, .t8 {
+    display: none;
+  }
+  .box1m{
     width: 575px;
     height: 44px;
     top: 843px;
     left: 20px;
     position: absolute;
-  
   }
-  .taskiuks2{
+  .box2m{
+    width: 575px;
+    height: 44px;
+    top: 947px;
+    left: 20px;
+    position: absolute;
+  }
+  .box3m{
+    width: 575px;
+    height: 44px;
+    top: 1051px;
+    left: 20px;
+    position: absolute;
+  }
+  .box4m{
+    width: 575px;
+    height: 44px;
+    top: 1155px;
+    left: 20px;
+    position: absolute;
+  }
+  .box5m{
+    width: 575px;
+    height: 44px;
+    top: 1259px;
+    left: 20px;
+    position: absolute;
+  }
+  .box6m{
+    width: 575px;
+    height: 44px;
+    top: 1363px;
+    left: 20px;
+    position: absolute;
+  }
+  .box7m{
+    width: 575px;
+    height: 44px;
+    top: 1467px;
+    left: 20px;
+    position: absolute;
+  }
+  .taskiuks1m{
     width: 20px;
     height: 20px;
-    top: 855px;
+    position: absolute;
     background-color: #93969B;
-    border-radius: 10px;
-  }.t2{
-    width: 485px;
+    border-radius: 20px;
+    top: 10px;
+  }
+  .taskiuks2m{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #93969B;
+    border-radius: 20px;
+    top: 10px;
+  }
+  .taskiuks3m{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #93969B;
+    border-radius: 20px;
+    top: 10px;
+  }
+  .taskiuks4m{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #93969B;
+    border-radius: 20px;
+    top: 10px;
+  }
+  .taskiuks5m{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #93969B;
+    border-radius: 20px;
+    top: 10px;
+  }
+  .taskiuks6m{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #93969B;
+    border-radius: 20px;
+    top: 10px;
+  }
+  .taskiuks7m{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #93969B;
+    border-radius: 20px;
+    top: 10px;
+  }
+  .t1m, .t2m, .t3m, .t4m, .t5m, .t6m, .t7m{
     height: 44px;
-    font-family: "Gilroy";
-    font-style: normal;
+    width: 485px;
+    left: 110px;
+    font-family: Neue Machina;
     font-weight: 400;
     font-size: 34px;
     line-height: 44.2px;
-    color: rgba(47, 53, 63, 0.70);
-    left: 110px;
+    letter-spacing: 0px;
+    color: #93969B;
     position: absolute;
-    top: 0;
-  }
-  .box3{
-    width: 162px;
-    height: 93px;
-    top: 415px;
-    left: 110px;
-    position: absolute;
-  }
-  .taskiuks3{
-    width: 15px;
-    height: 15px;
-    top: 415px;
-    left: 636px;
-    background-color: #93969B;
-    border-radius: 10px;
-  }
-  .t3{
-    width: 151px;
-    height: 46px;
-    top: 462px;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: rgba(47, 53, 63, 0.70);
-  }
-  .box4{
-    width: 162px;
-    height: 93px;
-    top: 415px;
-    left: 831px;
-    position: absolute;
-  }
-  .taskiuks4{
-    width: 15px;
-    height: 15px;
-    top: 415px;
-    left: 831px;
-    background-color: #93969B;
-    border-radius: 10px;
-  }
-  .t4{
-    width: 151px;
-    height: 46px;
-    top: 462px;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: rgba(47, 53, 63, 0.70);
-  }
-  .box5{
-    width: 162px;
-    height: 93px;
-    top: 415px;
-    left: 1026px;
-    position: absolute;
-  }
-  .taskiuks5{
-    width: 15px;
-    height: 15px;
-    top: 415px;
-    left: 1026px;
-    background-color: #93969B;
-    border-radius: 10px;
-  }
-  .t5{
-    width: 151px;
-    height: 46px;
-    top: 462px;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: rgba(47, 53, 63, 0.70);
-  }
-  .box6{
-    width: 162px;
-    height: 93px;
-    top: 415px;
-    left: 1213px;
-    position: absolute;
-  }
-  .taskiuks6{
-    width: 15px;
-    height: 15px;
-    top: 415px;
-    left: 1213px;
-    background-color: #93969B;
-    border-radius: 10px;
-  }
-  .t6{
-    width: 151px;
-    height: 46px;
-    top: 462px;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: rgba(47, 53, 63, 0.70);
-  }
-  .box7{
-    width: 162px;
-    height: 93px;
-    top: 415px;
-    left: 1403px;
-    position: absolute;
-  }
-  .taskiuks7{
-    width: 15px;
-    height: 15px;
-    top: 415px;
-    left: 1403px;
-    background-color: #93969B;
-    border-radius: 10px;
-  }
-  .t7{
-    width: 151px;
-    height: 46px;
-    top: 462px;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: rgba(47, 53, 63, 0.70);
-  }
-  .box8{
-    width: 162px;
-    height: 93px;
-    top: 415px;
-    left: 1619px;
-    position: absolute;
-  }
-  .taskiuks8{
-    width: 15px;
-    height: 15px;
-    top: 415px;
-    left: 1619px;
-    background-color: #93969B;
-    border-radius: 10px;
-  }
-  .t8{
-    width: 151px;
-    height: 46px;
-    top: 462px;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: rgba(47, 53, 63, 0.70);
   }
 }
