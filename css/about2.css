@@ -719,7 +719,7 @@ font-weight: 400;
 line-height: normal;
 position: absolute;
 left: 150px;
-top: 4945px;
+top: 5145px;
   } 
 }
 .container4{
@@ -1261,7 +1261,7 @@ border: 1.125px solid var(--main-blue, #2E2BD0);
     .icons{
     
       position: absolute;
-top: 8060px;
+top: 8400px;
 
 }}
 
@@ -1343,7 +1343,7 @@ line-height: normal;
     .minsk{
         position: absolute;
         left: 949px;
-        top: 8241px;
+        top: 6603px;
 
     }
 }
@@ -1357,7 +1357,7 @@ line-height: normal;
     .vilnius{
         position: absolute;
         left: 949px;
-        top: 8363px;
+        top: 6763px;
 
     }
 }
@@ -1394,7 +1394,7 @@ padding-top: 105px;
     .number1{
         position: absolute;
         left: 949px;
-        top: 8275px;
+        top: 6635px;
       width: 176px;  
 
     }
@@ -1410,7 +1410,7 @@ padding-top: 105px;
     .number2{
         position: absolute;
         left: 949px;
-        top:8397px;
+        top:6797px;
         width: 176px;  
 
     }
@@ -1445,7 +1445,7 @@ line-height: normal;
     .adress1{
         position: absolute;
         left: 949px;
-        top: 8309px;
+        top: 6665px;
 
     }
 }
@@ -1459,7 +1459,8 @@ line-height: normal;
     .adress2{
         position: absolute;
         left: 949px;
-        top: 8431px;
+        top: 6827px;
+
 
     }
 }
@@ -1493,7 +1494,7 @@ line-height: normal;
 text-transform: lowercase;
 position: absolute;
 left:1539px ;
-top: 8054px;
+ top: 8195px;
     }
 }
 .ser1{
@@ -1522,7 +1523,7 @@ top: 8054px;
         line-height: normal;
         position: absolute;
         left: 1539px;
-        top:8241px ;
+        top:-6445px ;
         width: 166px;
     }
 }
@@ -1540,7 +1541,7 @@ top: 8054px;
         line-height: normal;
         position: absolute;
         left: 1539px;
-        top:8403px ;
+        top:-6607px  ;
         width: 231px;
     }
 }
@@ -1573,7 +1574,7 @@ top:14699px ;
         line-height: normal;
         position: absolute;
         left: 1539px;
-        top:8295px ;
+        top:-6449px  ;
         width: 211px;
     }
 }
@@ -1625,7 +1626,7 @@ top:14705px ;
         line-height: normal;
         position: absolute;
         left: 1539px;
-        top:8349px ;
+        top:-6553px  ;
         width: 231px;
         padding: 0px;
     }
