@@ -13,7 +13,9 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #2F353F;
-    padding-bottom: 100px;
+    position: absolute;
+    top:7859px ;
+    left: 40px;
 }
 @media (min-width: 1024px){
     .header{
@@ -35,7 +37,7 @@
 .container1p{
     width: 1000px;
 height: 240px;
-top: 308px;
+
 gap: 0px;
 opacity: 0px;
 font-family: Gilroy;
@@ -46,7 +48,9 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #2F353FB2;
-padding-bottom: 100px;
+position: absolute;
+top: 8167px;
+left: 40px;
 
 }
 @media (min-width: 1024px){
@@ -71,6 +75,9 @@ height: 1220px;
 flex-shrink: 0;
 border-radius: 90px;
 background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
+position: absolute;
+top: 8507px;
+left: 40px;
 }
 @media (min-width: 1024px){
     .block1{
@@ -698,7 +705,7 @@ line-height: 90px;
 width: 1000px;
 position: absolute;
 left: 40px;
-padding-top: 250px;
+top: 9977px;
 
 }
 @media (min-width: 1024px)
@@ -722,7 +729,7 @@ width: 1080px;
 justify-content: center;
 align-items: center;
 
-padding-top: 530px;
+
 display: inline-flex;
 gap: 20px;
 }
@@ -742,8 +749,12 @@ gap: 0px;
 height: 715px;
 border-radius: 40px;
 border: 2px solid #909398;
-padding-left: 50px;}
-@media (min-width: 1024px){
+padding-left: 50px;
+
+
+}
+@media (min-width: 1024px)
+{
     .block2{
         width: 541px;
 height: 703px;
@@ -756,17 +767,37 @@ top: 5430px;
 
     }
 }
+.block654{
+    position: absolute;
+    top: 10257px;
+    
+    left:100px px;
+        }
+.block456{
+    position: absolute;
+    top: 10257px;
+    
+    left: -850px;
+        }
+.block546{
+    position: absolute;
+top: 10257px;
+left:1000px ;
+}
 @media (min-width: 1024px){
     .block456{
 left: 150px;
+top: 5430px;
     }}
     @media (min-width: 1024px){
         .block654{
     left: 740px;
+    top: 5430px;
         }}
         @media (min-width: 1024px){
             .block546{
         left: 1339px;
+        top: 5430px;
             }}
 
 .name{
@@ -867,7 +898,9 @@ padding-bottom: 250px ;
     border-radius: 70px;
     background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);border-radius: 70px;
     background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
-
+position: absolute;
+top: 11222px;
+left: 40px;
 
 }
 @media (min-width: 1024px){
@@ -879,6 +912,7 @@ border-radius: 70px;
 background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
 position: absolute;
 top:6583px ;
+
     }
 }
 .getin{
@@ -1044,6 +1078,7 @@ flex-shrink: 0;
 position: absolute;
 left: 40px;
 background-color: rgba(47, 53, 63, 0.50);
+top:13208px ;
 }
 @media (min-width: 1024px){
     .line123{
@@ -1067,12 +1102,13 @@ font-weight: 700;
 line-height: 50px; /* 108.696% */
 padding-top: 124px;
 position: absolute;
-left: 43px;
+left: 166px;
 display: inline-flex;
+top:13232px;
 }
 @media (min-width: 1024px){
     .imgtext{
-        display: none;
+        display:none; 
     }
 }
 .itsupportgroup2{
@@ -1090,7 +1126,7 @@ text-underline-offset: auto;
 text-underline-position: from-font;
 position:absolute;
 left: 617px;
-padding-top:181px ;
+top:13389px  ;
 }
 @media (min-width: 1024px){
 .itsupportgroup2{
@@ -1216,7 +1252,8 @@ border: 1.125px solid var(--main-blue, #2E2BD0);
      position: absolute; 
     left:360px ;}}
 .icons{
-    padding-top: 332px;
+    position: absolute;
+    top: 13540px;
    
 
 }
@@ -1232,6 +1269,7 @@ top: 8060px;
   
   position: absolute;
   left: 40px;
+  top: 13717px;
 }
 @media (min-width: 1024px){
     .contact{padding-top:50px ;
@@ -1252,6 +1290,7 @@ top: 8060px;
     padding-top:402px ;
     position: absolute;
     left: 40px;
+    top:13449px ;
 }
 @media (min-width: 1024px){
     .ouroffices{ 
@@ -1278,7 +1317,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 display: inline-flex;
-padding-top:546px ;
+position: absolute;
+
 
 }
 @media (min-width: 1024px){
@@ -1294,6 +1334,10 @@ line-height: normal;
 .minsk{
     left:40px ;
     position: absolute;
+    width:164px ;
+    top: 9503px;
+    width: 400px;
+  
 }
 @media (min-width: 1024px){
     .minsk{
@@ -1306,6 +1350,8 @@ line-height: normal;
 .vilnius{
     left:588px ;
     position: absolute;
+    top: 9503px;
+    width:400px ;
 }
 @media (min-width: 1024px){
     .vilnius{
@@ -1340,6 +1386,9 @@ padding-top: 105px;
 .number1{
     position: absolute;
     left:40px ;
+    top: 9593px;
+    width: 400px;
+
 }
 @media (min-width: 1024px){
     .number1{
@@ -1354,6 +1403,8 @@ padding-top: 105px;
 .number2{
     position: absolute;
     left:588px ;
+    top: 9593px;
+    width: 400px;
 }
 @media (min-width: 1024px){
     .number2{
@@ -1388,6 +1439,7 @@ line-height: normal;
     width: 468px;
     position: absolute;
     left: 40px;
+    top: 9670px;
 }
 @media (min-width: 1024px){
     .adress1{
@@ -1401,6 +1453,7 @@ line-height: normal;
     width: 452px; 
     position: absolute;
     left:588px ;
+    top: 9670px;
 }
 @media (min-width: 1024px){
     .adress2{
@@ -1420,13 +1473,15 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: lowercase;
-  padding-top: 150px;
+
 
 position: absolute;
 left: 40px;
+top: 14512px;}
 
 
-}
+
+
 @media (min-width: 1024px){
     .serivices{
         color: var(--main-light, #2F353F);
@@ -1449,9 +1504,9 @@ top: 8054px;
     font-weight: 400;
     line-height: normal;
     display: inline-flex;
-   padding-top: 244px;
-   padding-bottom: 93px;
-    
+   top:14606px ;
+   position: absolute;
+   width: 1000px;
 }
 .Technical{
     position: absolute;
@@ -1498,6 +1553,9 @@ font-weight: 400;
 line-height: normal;
 
 display: inline-flex;
+top:14699px ;
+   position: absolute;
+   width: 1000px;
 
 
 }
@@ -1546,6 +1604,9 @@ font-weight: 400;
 line-height: normal;
 
 display: inline-flex;
+top:14705px ;
+   position: absolute;
+   width: 1000px;
 
 
 }
@@ -1597,6 +1658,7 @@ display: inline-flex;
 background-color: rgba(47, 53, 63, 0.50);
 position: absolute;
 left: 40px;
+top: 14945px;
 
 
 }
@@ -1629,6 +1691,7 @@ padding-top:50px ;
 .footer1{
     position: absolute;
     left: 40px;
+    top: 14995px;
 
 }
 @media (min-width: 1024px){
@@ -1647,6 +1710,7 @@ padding-top:50px ;
 .footer2{
     position: absolute;
     left:799px ;
+    top: 14995px;
 }
 @media (min-width: 1024px){
     .footer2{
@@ -1671,6 +1735,7 @@ line-height: normal;
 padding-top: 98px;
 position: absolute;
 left: 40px;
+top: 14993px;
 }
 @media (min-width: 1024px){
     .it2023{
