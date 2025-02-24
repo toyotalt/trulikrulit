@@ -2120,4 +2120,81 @@ left: 150px;
 top:8100px ;
                 
                 
-            }}
+            }
+        }
+        @media(min-width: 1024px){
+           .ts, .fd, .bd, .mad, .ui, .sd{
+            color: var(--main-blue, #2E2BD0);
+            font-family: Gilroy;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            
+              }}
+              @media(min-width: 1024px){
+                .ts{
+                    position: absolute;
+                    top: 64445px;
+                }
+              }
+              .ts{
+    width: 166px;
+    height: 24px;
+    top: 69px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .fd{
+    width: 211px;
+    height: 24px;
+    top: 123px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .bd{
+    width: 210px;
+    height: 24px;
+    top: 177px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .mad{
+    width: 231px;
+    height: 24px;
+    top: 231px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .ui{
+    width: 121px;
+    height: 24px;
+    top: 285px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
+  .sd{
+    width: 212px;
+    height: 24px;
+    top: 339px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2BD0;
+    position: absolute;
+  }
